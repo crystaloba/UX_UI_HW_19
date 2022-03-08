@@ -106,19 +106,27 @@
   background: white;
   position: relative;
 }
-.flex_item {
-  padding: 10px;
-  margin: 14px;
-  background-color: lightgray;
-  color:black;
-  border: 2px solid black;
-  display: flex;
-  align-items: center;
-  height: 200px;
-  width: 400px;
-  background: url("https://picsum.photos/200/200?image=0");
+.dropbtn {
+  background-color: #FA9860;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
-.trending h1 {
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #030201;
+  box-shadow: 5px 5px 10px 2px rgba(173, 173, 173, 0.8)
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.trending h2 {
   float: none;
   color:black;
   text-align: center;

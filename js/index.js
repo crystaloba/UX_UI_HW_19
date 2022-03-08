@@ -1,2 +1,8 @@
+document.querySelector('#myBtn');
 
-console.log("Your index.js file is loaded correctly!");
+const myBtn = document.getElementById('myBtn');
+
+// ✅ Change button text on click
+myBtn.addEventListener('click', function handleClick() {
+    myBtn.textContent = 'Added!';
+});

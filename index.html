@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="CSS/style.css" >
+        <link rel="stylesheet" href="CSS/style.css">
+        <meta charset="UTF-8">
     </head>
+    <title>ULTA Beauty</title>
      <body>
          <div>
          <div class="logo">
@@ -45,7 +47,7 @@
         <section>
             
             <div class="trending" style="background-color: rgb(255, 255, 255);">
-                <h1>Trending Products this Month</h1>
+                <h2>Trending Products this Month</h2>
                 
                 <div id="row" class="flex">
                     <div class="flex_item1" style="padding:15px;">
@@ -56,7 +58,13 @@
                          <h4>Peach & Lily Glass Skin Refining Serum</h4>
                          <br>
                          <h5>Peach & Lily's No. 1 Bestseller, Glass Skin Refining Serum, visibly brightens, firms, hydrates & calms. Clean, effective, silky, weightless formula.</h5>
-                     </div>
+                        <br>
+                        <div class="dropdown">
+                            <button id="myBtn" onclick="change_text()" class="dropbtn">Add to cart</button>
+                            <div id="addtoCart" class="cart-content">
+                            </div>
+                          </div>
+                        </div>
                     </div>
                     <div class="flex_item2" style="padding:15px;">
                       <div class="tarte">
@@ -66,6 +74,12 @@
                           <h4>Tarte Shape Tape Concealer</h4>
                           <br>
                        <h5> Swipe on the hype with Tarte's best-selling Shape Tape Concealer!</h5>
+                       <br>
+                       <div class="dropdown">
+                        <button id="myBtn" onclick="change_text()" class="dropbtn">Add to cart</button>
+                        <div id="addtoCart" class="cart-content">
+                        </div>
+                      </div>
                         </div>
                       </div>
                     
@@ -203,7 +217,7 @@
                         <div class="toolsCat">Tools</div>
                     </span>
                     <span class="dot">
-                        <img src="images/men-bubble.webp" style="position:absolute; right: 0px; bottom:0px; width: 160px; height: 160px; border:none;"/>
+                        <img src="Images/men-bubble.webp" style="position:absolute; right: 0px; bottom:0px; width: 160px; height: 160px; border:none;"/>
                         <div class="menCat">Men</div>
                     </span>
                 </div>
